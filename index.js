@@ -3,8 +3,7 @@ require("dotenv").config();
 const bot = new Telegraf(process.env.BOT_TOKEN);
 const cron = require("node-cron");
 
-const userId = 1058754017;
-const grupId = -849887444;
+const grupId = process.env.GRUP_ID;
 const now = new Date().toDateString();
 const timeNow = new Date().toLocaleTimeString();
 
@@ -42,4 +41,3 @@ bot.start((ctx) => {
 bot.launch();
 
 console.log("server running...");
-
