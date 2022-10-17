@@ -18,22 +18,22 @@ cron.schedule("1 00 09 * * *", () => {
   bot.telegram.sendMessage(grupId, text);
 });
 cron.schedule("1 00 11 * * *", () => {
-  bot.telegram.sendMessage(userId, text);
+  bot.telegram.sendMessage(grupId, text);
 });
 cron.schedule("1 00 13 * * *", () => {
-  bot.telegram.sendMessage(userId, text);
+  bot.telegram.sendMessage(grupId, text);
 });
 cron.schedule("1 00 15 * * *", () => {
-  bot.telegram.sendMessage(userId, text);
+  bot.telegram.sendMessage(grupId, text);
 });
 cron.schedule("1 00 17 * * *", () => {
-  bot.telegram.sendMessage(userId, text);
+  bot.telegram.sendMessage(grupId, text);
 });
 cron.schedule("1 00 19 * * *", () => {
-  bot.telegram.sendMessage(userId, text);
+  bot.telegram.sendMessage(grupId, text);
 });
 cron.schedule("1 00 21 * * *", () => {
-  bot.telegram.sendMessage(userId, text);
+  bot.telegram.sendMessage(grupId, text);
 });
 
 bot.start((ctx) => {
@@ -42,3 +42,4 @@ bot.start((ctx) => {
 bot.launch();
 
 console.log("server running...");
+
