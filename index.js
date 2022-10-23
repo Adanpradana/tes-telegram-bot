@@ -36,7 +36,7 @@ cron.schedule("1 00 21 * * *", () => {
 });
 
 bot.start((ctx) => {
-  ctx.reply("apa kao");
+  ctx.reply("henloo, im on !");
 });
 bot.launch();
 

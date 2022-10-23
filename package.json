@@ -1,7 +1,6 @@
 {
   "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "app/index.js",
   "engines": {
     "node": "14.x"
@@ -20,5 +19,14 @@
     "nodemon": "^2.0.20",
     "telegraf": "^4.10.0",
     "uuid": "^9.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adanpradana/tes-telegram-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adanpradana/tes-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Adanpradana/tes-telegram-bot#readme",
+  "description": ""
 }
