@@ -36,7 +36,7 @@ cron.schedule("1 00 21 * * *", () => {
 });
 
 bot.start((ctx) => {
-  ctx.reply("henloo, im on !");
+  ctx.reply("henloo, im running...");
 });
 bot.launch();
 
