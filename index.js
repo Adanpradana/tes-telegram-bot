@@ -17,17 +17,17 @@ cron.schedule("00 04 * * * ", async () => {
   const jakarta = await getDataApi("1301");
   const groupedData = [malang, sumenep, jakarta];
   if (groupedData.length !== 0) {
-    await imsak(groupedData, bot, grupId, timeSchedule);
+    await imsak(groupedData, bot, grupId);
   }
 });
-cron.schedule("00 16* * * ", async () => {
+cron.schedule("00 16 * * * ", async () => {
   const timeSchedule = ["imsak", "subuh", "maghrib"];
   const malang = await getDataApi("1634");
   const sumenep = await getDataApi("1626");
   const jakarta = await getDataApi("1301");
   const groupedData = [malang, sumenep, jakarta];
   if (groupedData.length !== 0) {
-    await maghrib(groupedData, bot, grupId, timeSchedule);
+    await maghrib(groupedData, bot, grupId);
   }
 });
 
