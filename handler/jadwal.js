@@ -8,7 +8,7 @@ async function imsak(data, bot, grupId) {
 
       // Schedule a cron job based on imsakTime
       cron.schedule(cronSchedule, async () => {
-        await bot.telegram.sendMessage(
+        await bot.api.sendMessage(
           grupId,
           `waktunya imsak  ${schedule.data.lokasi} dan sekitarnya `,
         );
@@ -27,7 +27,7 @@ async function maghrib(data, bot, grupId) {
 
       // Schedule a cron job based on imsakTime
       cron.schedule(cronSchedule, async () => {
-        await bot.telegram.sendMessage(
+        await bot.api.sendMessage(
           grupId,
           `selamat berbuka puasa  ${schedule.data.lokasi} dan sekitarnya ✨🎉`,
         );
