@@ -1,4 +1,4 @@
-const app = require("express");
+const express = require("express");
 const { Bot, webhookCallback } = require("grammy");
 const cron = require("node-cron");
 const { botStart } = require("./bot");
